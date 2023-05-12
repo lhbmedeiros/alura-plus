@@ -158,7 +158,8 @@ body {
 
 @media screen and (max-width: 766px){ /*Responsividade*/
     .body {
-        margin: 2em;
+        margin: auto;
+        align-items: center;
     }
     
     .container {
