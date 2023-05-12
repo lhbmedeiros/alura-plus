@@ -13,6 +13,8 @@
     padding: 0;
 }
 
+
+
 body {
     background-color: var(--cor--fundo);
     color: var(--branco--principal);
@@ -115,6 +117,7 @@ body {
     font-weight: 700;
     color: var(--branco--principal);
     margin: 2.5em 0;
+
 }
 
 .rodape {
@@ -158,60 +161,46 @@ body {
 
 @media screen and (max-width: 766px){ /*Responsividade*/
     .body {
-        margin: auto;
-        align-items: center;
+        margin: 0;
+        padding: 0;
     }
     
     .container {
-        display: block;
         background-image: none;
-        flex-direction: column-reverse;
-        margin: 2em;
-    }
-
-    .container__imagem {
-        width: 50vw;
+        display: block;
+        margin: 0 1em;
     }
 
     .container__caixa {
-        margin: 2em 2em;
-    }
-
-    .container__descricao {
-        display: block;
+        margin: 0 0;
     }
 
     .secundario {
-        margin: 10% 0;
-        text-align: center;
+        margin: 0 1em;
         display: flex;
+        flex-direction: column-reverse;
         text-align: center;
     }
 
-    .secundario_imagem {
-        width: 50vh;
-    }
-
-    .notebook {
-        width: 50px;
-    }
-
-    .dispositivos {
-        margin: 2em;
+    .container__descricao {
+        padding: 1em;
     }
 
     .dispositivos__lista {
-        display: block;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dispositivos {
+        margin: 0 1em;
     }
 
     .rodape {
-        margin: 2em;
+        margin: 0 1em;
     }
 
-    .rodape__logo {
-        padding-left: 2em;
-    }
     .rodape__lista {
-        flex-direction: column;   
+        display: block;
+        margin-left: 0%;
     }
 }
