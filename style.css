@@ -192,6 +192,10 @@ body {
         width: 50vh;
     }
 
+    .notebook {
+        width: 50px;
+    }
+
     .dispositivos {
         margin: 2em;
     }
