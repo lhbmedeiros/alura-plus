@@ -156,10 +156,11 @@ body {
     color: var(--cor--fundo);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
     .container {
         display: block;
         background-image: none;
+        flex-direction: column-reverse;
     }
 
     .container__imagem {
@@ -172,11 +173,10 @@ body {
 
     .container__descricao {
         display: block;
-        
     }
 
     .secundario {
-        margin: 0;
+        margin: 10% 0;
         text-align: center;
         display: flex;
         text-align: center;
@@ -190,9 +190,10 @@ body {
         display: block;
     }
 
+    .rodape__logo {
+        padding-left: 2em;
+    }
     .rodape__lista {
-        display: block;
-        flex-direction: column;
-        
+        flex-direction: column;   
     }
 }
