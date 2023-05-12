@@ -207,6 +207,6 @@ body {
 
     .secundario__imagem {
         width: 100%;
-        object-fit: contain;
+        object-fit: cover;
     }
 }
